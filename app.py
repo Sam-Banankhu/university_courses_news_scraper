@@ -22,6 +22,24 @@ def get_souped_courses(soup):
     return divs
 
 
+# functions to get souped courses content of a website and return faculty, course, level, award, duration
+def get_course_divs(divs):
+    faculty = []
+    course = []
+    level = []
+    award = []
+    duration = []
+    for div in divs:
+        faculty.append(div.find('div', class_="vacancy-head vacancy-head-default").text.replace("\n", '').replace("\t", '').strip()[11:])
+        course.append(div.h5.text)
+        level.append(div.find('div' ,class_="vacancy-details").text.split("\n")[2].split()[-1])
+        award.append(div.find('div' ,class_="vacancy-details").text.split("\n")[3].split(":")[-1].strip().split("-")[0].strip())
+        duration.append(int(div.find('div' ,class_="vacancy-details").text.split("\n")[3].split(":")[-1].split('-')[-1].strip().split()[0]))
+        
+    return faculty, course, level, award, duration
+
+    
+
 # functions to get the beautfied news content of a website and return article, date, author 
 def get_souped_news(news):
     author = news.find('div', class_='news-content').text.replace('\n','').replace('\xa0','')
@@ -32,7 +50,7 @@ def get_souped_news(news):
 
 
 
-
+# this is a dictionary for courses repositories
 courses_dict = {
     'faculty':[],
     'course':[],
@@ -41,6 +59,7 @@ courses_dict = {
     'duration':[]
 }
 
+# this is a pandas  dataframe for all courses
 def create_repo(faculty, course, level, award, duration):
     courses_dict['faculty'].extend(faculty)
     courses_dict['course'].extend(course)

@@ -1,0 +1,93 @@
+faculty,course,level,award,duration
+Commerce,Bachelor of Accountancy,Undergraduate,Bachelors  Degree,4
+Education and Media Studies,Bachelor of Arts in Business Communication ,Undergraduate,Bachelors  Degree,4
+Education and Media Studies,Bachelor of Arts in Journalism ,Undergraduate,Bachelors  Degree,4
+Engineering,Bachelor of Biomedical Engineering,Undergraduate,Bachelors  Degree,5
+Commerce,Bachelor of Business Administration (Generic) ,Undergraduate,Bachelors  Degree,4
+Commerce,Bachelor of Business Administration (Marketing) ,Undergraduate,Bachelors  Degree,4
+Engineering,Bachelor of Civil Engineering (Structures) (Hons),Undergraduate,Bachelors  Degree,5
+Engineering,Bachelor of Civil Engineering (Transportation) (Hons),Undergraduate,Bachelors  Degree,5
+Engineering,Bachelor of Civil Engineering (Water) (Hons),Undergraduate,Bachelors  Degree,5
+Commerce,Bachelor of Commerce (Banking and  Finance),Undergraduate,Bachelors  Degree,4
+Commerce,Bachelor of Commerce (Entrepreneurship) ,Undergraduate,Bachelors  Degree,4
+Commerce,Bachelor of Commerce (Internal Audit) ,Undergraduate,Bachelors  Degree,4
+Commerce,Bachelor of Commerce (Tourism Management) ,Undergraduate,Bachelors  Degree,4
+Education and Media Studies,Bachelor of Education (Business Studies) ,Undergraduate,Bachelors  Degree,4
+Education and Media Studies,Bachelor of Education (Technical),Undergraduate,Bachelors  Degree,4
+Engineering,Bachelor of Electrical and Electronics Engineering (Hons) ,Undergraduate,Bachelors  Degree,5
+Engineering,Bachelor of Electronics and Computer Engineering (Hons) ,Undergraduate,Bachelors  Degree,5
+Applied Sciences,Bachelor of Electronics and Telecommunications Eng (Hons) ,Undergraduate,Bachelors  Degree,5
+Engineering,Bachelor of Energy Engineering ,Undergraduate,Bachelors  Degree,5
+Applied Sciences,Bachelor of Food Science and Technology,Undergraduate,Bachelors  Degree,4
+Engineering,Bachelor of Geological Engineering ,Undergraduate,Bachelors  Degree,5
+Engineering,Bachelor of Industrial Engineering (BIE),Undergraduate,Bachelors  Degree,5
+Commerce,Bachelor of Laws in Commercial Law,Undergraduate,Bachelors  Degree,4
+Engineering,Bachelor of Mechanical Engineering (Hons) ,Undergraduate,Bachelors  Degree,5
+Engineering,Bachelor of Mechanical Engineering-Automobile (BAE),Undergraduate,Bachelors  Degree,5
+Engineering,Bachelor of Metallurgy and Mineral Processing Engineering ,Undergraduate,Bachelors  Degree,5
+Engineering,Bachelor of Mining Engineering ,Undergraduate,Bachelors  Degree,5
+Commerce,Bachelor of Procurement and Logistics Management ,Undergraduate,Bachelors  Degree,4
+Built Environment,Bachelor of Science in Architectural Studies,Undergraduate,Bachelors  Degree,5
+Applied Sciences,Bachelor of Science in Environmental Health ,Undergraduate,Bachelors  Degree,4
+Applied Sciences,Bachelor of Science in Environmental Science & Technology		,Undergraduate,Bachelors  Degree,4
+Applied Sciences,Bachelor of Science in Industrial Laboratory Technology		,Undergraduate,Bachelors  Degree,4
+Applied Sciences,Bachelor of Science in Information Technology 	,Undergraduate,Bachelors  Degree,4
+Built Environment,Bachelor of Science in Land Economy,Undergraduate,Bachelors  Degree,5
+Built Environment,Bachelor of Science in Land Surveying ,Undergraduate,Bachelors  Degree,5
+Applied Sciences,Bachelor of Science in Management Information Systems ,Undergraduate,Bachelors  Degree,4
+Applied Sciences,Bachelor of Science in Mathematical Sciences Education,Undergraduate,Bachelors  Degree,4
+Built Environment,Bachelor of Science in Physical Planning ,Undergraduate,Bachelors  Degree,5
+Built Environment,Bachelor of Science in Quantity Surveying ,Undergraduate,Bachelors  Degree,5
+Applied Sciences,Bachelor of Science Mathematical Sciences Education (Mathematics and Computing),Undergraduate,Bachelors  Degree,4
+Applied Sciences,Bachelor of Science Mathematical Sciences Education (Mathematics and Statistics),Undergraduate,Bachelors  Degree,4
+Applied Sciences,Bachelor of Science Mathematical Sciences Education (Statistics and Computing),Undergraduate,Bachelors  Degree,4
+Education and Media Studies,Bachelor of Technical Education (Science) ,Undergraduate,Bachelors  Degree,4
+Engineering,Diploma in Automobile Engineering ,Undergraduate,Diploma,3
+Engineering,Diploma in Biomedical Engineering ,Undergraduate,Diploma,3
+Engineering,Diploma in Civil Engineering ,Undergraduate,Diploma,3
+Engineering,Diploma in Construction Technology,Undergraduate,Diploma,3
+Engineering,Diploma in Electrical and Electronics Engineering ,Undergraduate,Diploma,3
+Engineering,Diploma in Electronics and Computer Engineering ,Undergraduate,Diploma,3
+Engineering,Diploma in Electronics and Telecommunication Engineering ,Undergraduate,Diploma,3
+Engineering,Diploma in Fabrication and Welding Engineering ,Undergraduate,Diploma,3
+Engineering,Diploma in Geological Engineering Mining,Undergraduate,Diploma,3
+Applied Sciences,Diploma in Industrial Laboratory Technology ,Undergraduate,Diploma,3
+Built Environment,Diploma in Land Economy,Undergraduate,Diploma,3
+Built Environment,Diploma in Land Surveying,Undergraduate,Diploma,3
+Engineering,Diploma in Mechanical Engineering ,Undergraduate,Diploma,3
+Engineering,Diploma in Metallurgy and Mineral Processing Engineering ,Undergraduate,Diploma,3
+Engineering,Diploma in Mining Engineering Mining,Undergraduate,Diploma,3
+Built Environment,Diploma in Quantity  Surveying,Undergraduate,Diploma,3
+Applied Sciences,Doctor of Philosophy in Applied Mathematics,Postgraduate,Doctorate  Degree,4
+Applied Sciences,Doctor of Philosophy in Applied Statistics,Postgraduate,Doctorate  Degree,4
+Education and Media Studies,Master of Arts in Health and Behavioural Change Communication (MHBCC) ,Postgraduate,Masters  Degree,2
+Education and Media Studies,Master of Arts in Media Studies,Postgraduate,Masters  Degree,2
+Commerce,Master of Business Administration (MBA),Postgraduate,Masters  Degree,2
+Applied Sciences,Master of Philosophy in Applied Mathematics,Postgraduate,Masters  Degree,2
+Applied Sciences,Master of Philosophy in Applied Sciences (Environmental Health) ,Postgraduate,Masters  Degree,2
+Applied Sciences,Master of Philosophy in Applied Sciences (Environmental Protection and Management) ,Postgraduate,Masters  Degree,2
+Applied Sciences,Master of Philosophy in Applied Sciences (Industrial Process Technology) ,Postgraduate,Masters  Degree,2
+Applied Sciences,Master of Science in Environmental Health (MEH) ,Postgraduate,Masters  Degree,2
+Applied Sciences,Master of Science in Environmental Protection and Management (MEPM) ,Postgraduate,Masters  Degree,2
+Engineering,Master of Science in Infrastructure Development,Postgraduate,Masters  Degree,2
+Engineering,Master of Science in Infrastructure Development and Management (IDM) ,Postgraduate,Masters  Degree,2
+Applied Sciences,Master of Science in Sanitation,Postgraduate,Masters  Degree,2
+Engineering,Master of Science in Sustainable Energy,Postgraduate,Masters  Degree,2
+Engineering,"Master of Science in Sustainable Engineering Management (Mining, Faculties and Water)",Postgraduate,Masters  Degree,2
+Engineering,Master of Science in Sustainable Engineering Management (MSEM) ,Postgraduate,Masters  Degree,2
+Applied Sciences,Master of Science in Water Resources and Supply Management (MWRSM) ,Postgraduate,Masters  Degree,2
+Education and Media Studies,Master of Vocational & Technical Education (MVTE),Postgraduate,Masters  Degree,2
+Engineering,PhD and  Master of Philosophy in  Engineering (Power and Machines),Postgraduate,Doctorate  Degree,4
+Engineering,PhD and  Master of Philosophy in  Engineering (Sustainable Engineering Management),Postgraduate,Doctorate  Degree,4
+Engineering,PhD and  Master of Philosophy in  Engineering (Transport Systems),Postgraduate,Doctorate  Degree,4
+Engineering,PhD and  Master of Philosophy in Engineering (Telecommunications),Postgraduate,Doctorate  Degree,4
+Applied Sciences,PhD and Master of Philosophy in Applied Sciences (Environmental Sanitation),Postgraduate,Doctorate  Degree,4
+Applied Sciences,PhD and Master of Philosophy in Applied Sciences (Renewable Energy) ,Postgraduate,Doctorate  Degree,4
+Engineering,PhD and Master of Philosophy in Engineering (Industrial Management),Postgraduate,Doctorate  Degree,4
+Engineering,PhD and Master of Philosophy in Engineering (Infrastructure Development & Management),Postgraduate,Doctorate  Degree,4
+Applied Sciences,PhD In Applied Sciences (Industrial Process Technology) ,Postgraduate,Doctorate  Degree,4
+Applied Sciences,PhD in Applied Sciences (Information Technology),Postgraduate,Doctorate  Degree,4
+Applied Sciences,PhD in Applied Sciences (Public Health Engineering),Postgraduate,Doctorate  Degree,4
+Commerce,PhD in Entrepreneurship,Postgraduate,Doctorate  Degree,4
+Commerce,PhD in Financial Management,Postgraduate,Doctorate  Degree,4
+Commerce,PhD in Strategic Management,Postgraduate,Doctorate  Degree,4
