@@ -14,8 +14,10 @@ df.insert(0, column = 'date_mod', value = date_mod)
 # droping the date column
 df.drop(columns = 'date', inplace =True)
 
-
+# sorting the values by date column
 df.sort_values(by='date_mod', ascending=True, inplace=True, ignore_index= True)
 
+
+# renaming the mismatching columns
 df.rename(columns={'date_mod':'date', 'article': 'author', 'author':'article' }, inplace=True)
 print(df.head())
