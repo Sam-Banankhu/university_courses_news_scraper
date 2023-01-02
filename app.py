@@ -38,7 +38,23 @@ def get_course_divs(divs):
         
     return faculty, course, level, award, duration
 
+
+
+# function to get news page and return title, article_link
+def get_page(page):
+    base = 'http://www.mubas.ac.mw'
+    title = []
+    article_link = []
     
+    divs = page.find_all('div', class_= 'col-sm-6 news-snippet')
+    for div in divs:
+        title.append(div.h4.text)
+        article_link.append(f"{base}{div.a['href']}")
+        
+    
+    return title, article_link
+
+
 
 # functions to get the beautfied news content of a website and return article, date, author 
 def get_souped_news(news):
