@@ -16,12 +16,12 @@ for i in range(41):
     
     page_link =f"{base}/news?page={i+1}"
     
-    page = get_link(page_link)
-    title, article_link = get_page(page)
+    page = app.get_link(page_link)
+    title, article_link = app.get_page(page)
     
     for link in article_link:
-        news = get_link(link)
-        article, date, author = get_souped_news(news)
+        news = app.get_link(link)
+        article, date, author = app.get_souped_news(news)
         articles.append(article)
         dates.append(date)
         authors.append(author)

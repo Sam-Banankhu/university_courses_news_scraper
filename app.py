@@ -85,3 +85,24 @@ def create_repo(faculty, course, level, award, duration):
     
     
     return pd.DataFrame(courses_dict)
+
+
+# dictionary to create news repositories
+news_dict = {
+    'title':[],
+    'article':[],
+    'date':[],
+    "author":[],
+    'link':[]
+}
+
+
+# this is a pandas  dataframe for all news
+def create_news_repo(title, article, date, author, link):
+    news_dict['title'].extend(title)
+    news_dict['article'].extend(article)
+    news_dict['date'].extend(date)
+    news_dict['author'].extend(author)
+    news_dict['link'].extend(link)
+    
+    return pd.DataFrame(news_dict)
