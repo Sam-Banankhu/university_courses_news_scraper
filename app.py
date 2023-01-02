@@ -29,3 +29,24 @@ def get_souped_news(news):
     article = news.find('div', {"class":"news-date"}).text.split("\t")[4].split('\xa0')[0].strip()
     
     return article, date, author 
+
+
+
+
+courses_dict = {
+    'faculty':[],
+    'course':[],
+    'level':[],
+    'award':[],
+    'duration':[]
+}
+
+def create_repo(faculty, course, level, award, duration):
+    courses_dict['faculty'].extend(faculty)
+    courses_dict['course'].extend(course)
+    courses_dict['level'].extend(level)
+    courses_dict['award'].extend(award)
+    courses_dict['duration'].extend(duration)
+    
+    
+    return pd.DataFrame(courses_dict)
