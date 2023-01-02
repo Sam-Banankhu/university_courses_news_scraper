@@ -20,4 +20,7 @@ df.sort_values(by='date_mod', ascending=True, inplace=True, ignore_index= True)
 
 # renaming the mismatching columns
 df.rename(columns={'date_mod':'date', 'article': 'author', 'author':'article' }, inplace=True)
-print(df.head())
+
+# saving the cleaned dataset
+df.to_csv('news_cleaned.csv',index=False)
+# print(df.head())
