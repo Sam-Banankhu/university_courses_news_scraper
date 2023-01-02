@@ -26,5 +26,7 @@ for i in range(41):
         dates.append(date)
         authors.append(author)
     
-    df_news = create_news_repo(title, articles, dates, authors, article_link)
+    df_news = app.create_news_repo(title, articles, dates, authors, article_link)
     sleep(.2)
+
+df_news.to_csv('news.csv', index=False)
