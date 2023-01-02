@@ -31,7 +31,6 @@ plt.savefig('fig2.png')
 plt.show()
 # print(df.head())
 
-
 sns.barplot(data = df, x = 'faculty', y = 'duration', hue="level")
 plt.title('GRAPHICS')
 plt.ylabel('Faculties')
